@@ -1,0 +1,17 @@
+Python 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> help
+Type help() for interactive help, or help(object) for help about object.
+>>> # This program adds two numbers
+>>>
+>>> num1 = 1.5
+>>> num2 = 6.3
+>>>
+>>> # Add two numbers
+>>>
+>>> sum = num1 + num2
+>>>
+>>> # Display the sum
+>>> print('The sum of {0} and {1} is {2}' .format (num1, num2, sum))
+The sum of 1.5 and 6.3 is 7.8
+>>>
