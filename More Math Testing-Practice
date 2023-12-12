@@ -1,0 +1,33 @@
+Python 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+# this program adds two numbers
+
+num1 = 1.5
+num2 = 6.3
+
+# Add two numbers
+sum = num1 + num2
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+The sum of 1.5 and 6.3 is 7.8
+
+# Store input numbers
+
+num1 = input('Enter first number:')
+Enter first number:10
+num2 = input('Enter second number:')
+Enter second number:12
+
+# Add two numbers
+sum = float(num1) + float(num2)
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+The sum of 10 and 12 is 22.0
+
+ 
+print('The sum is %.1f'%(float(input('Enter first number:')) + float(input('Enter second number:'))))
+Enter first number:145
+Enter second number:2356
+The sum is 2501.0
